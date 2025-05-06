@@ -2,10 +2,31 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    font-size: 3.5rem;
+    flex-direction: column;
+    height: 100vh;
+    background-color: beige;
 }
 
-.main-heading {
+#num {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #4CAF50;
     text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+button {
+    padding: 10px;
+    display: block;
+    margin: 10px;
+    width: 100px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
 }

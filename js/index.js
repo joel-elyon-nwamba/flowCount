@@ -27,9 +27,9 @@ decreaseCount();
 
 function saveCount() {
     let countSum = count;
-    paragraph.textContent = `Saved count: ${countSum}`;
-    num.textContent = 0;
+    num.textContent = count;
     count = 0;
+    paragraph.textContent += ` ${countSum} - `;
 }
 
 saveCount();
